@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Eggfinder RX")(type "KiCad")(uri "${KIPRJMOD}/Lib/eggtimer_rx.kicad_sym")(options "")(descr ""))
+)
