@@ -6191,7 +6191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+		(property "Footprint" "My footprints:OS102011MA1QN1_CNK"
 			(at 69.85 39.37 0)
 			(effects
 				(font
