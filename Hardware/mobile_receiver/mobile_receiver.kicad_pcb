@@ -94,41 +94,6 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 4"
-				(type "core")
-				(thickness 1.51)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(thickness 0.01)
-			)
-			(layer "B.Paste"
-				(type "Bottom Solder Paste")
-			)
-			(layer "B.SilkS"
-				(type "Bottom Silk Screen")
-			)
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
@@ -139,7 +104,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -170,9 +135,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../Manufacturing/Gerber Output/")
 		)
 	)
 	(net 0 "")
@@ -224,7 +189,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at 0 1.5 0)
+			(at -3.2 -0.4 0)
 			(layer "F.SilkS")
 			(uuid "8972f9ea-7c73-4399-9dd2-0ac534688700")
 			(effects
@@ -998,7 +963,7 @@
 		(descr "tactile push button, 6x6mm, height=5mm, 12V 50mA, https://datasheet.lcsc.com/lcsc/1811151231_HYP--Hongyuan-Precision-1TS009A-1800-5000-CT_C319409.pdf")
 		(tags "tact sw push 6mm silicone rubber")
 		(property "Reference" "SW6"
-			(at 0 -4.064 0)
+			(at -0.553779 3.933805 0)
 			(layer "F.SilkS")
 			(uuid "4c5c0f17-d657-40b2-b67b-308a9aea79ab")
 			(effects
@@ -1442,7 +1407,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 -1.65 0)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "b81a8b19-2d22-4930-9bba-f95fae3e7ee2")
 			(effects
@@ -3754,7 +3719,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at 0 -1.65 0)
+			(at 2.7 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "77144afb-c9b6-41c8-bec9-5f207fbe087c")
 			(effects
@@ -3895,7 +3860,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at 0 -1.65 90)
+			(at 0 1.603311 90)
 			(layer "F.SilkS")
 			(uuid "1d785fde-c1ca-4540-9b57-98c9a3ad4603")
 			(effects
@@ -4036,7 +4001,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R_PU0"
-			(at 2.72257 -1.381924 180)
+			(at 2.72257 -2.5 180)
 			(layer "F.SilkS")
 			(uuid "f45e3df8-dbd8-4e2c-8d89-e70d2c49e0c6")
 			(effects
@@ -4177,7 +4142,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R_PD1"
-			(at 0 -1.65 0)
+			(at 4.523985 0.065501 0)
 			(layer "F.SilkS")
 			(uuid "e1f475b0-789e-4992-8c9a-21688187d3bc")
 			(effects
@@ -4318,7 +4283,7 @@
 		(descr "tactile push button, 6x6mm, height=5mm, 12V 50mA, https://datasheet.lcsc.com/lcsc/1811151231_HYP--Hongyuan-Precision-1TS009A-1800-5000-CT_C319409.pdf")
 		(tags "tact sw push 6mm silicone rubber")
 		(property "Reference" "SW4"
-			(at 0 -4.064 0)
+			(at 0 4.052159 0)
 			(layer "F.SilkS")
 			(uuid "a5005baa-4642-4221-b3e5-11d623901f0d")
 			(effects
@@ -5206,7 +5171,7 @@
 		(descr "tactile push button, 6x6mm, height=5mm, 12V 50mA, https://datasheet.lcsc.com/lcsc/1811151231_HYP--Hongyuan-Precision-1TS009A-1800-5000-CT_C319409.pdf")
 		(tags "tact sw push 6mm silicone rubber")
 		(property "Reference" "SW2"
-			(at -0.147609 -4.621634 0)
+			(at 1.881637 3.96391 0)
 			(layer "F.SilkS")
 			(uuid "12c2ecef-9bd8-46cd-8997-7b0dd5d1f693")
 			(effects
@@ -5650,7 +5615,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0 1.68 0)
+			(at 0.194506 -1.709465 0)
 			(layer "B.SilkS")
 			(uuid "8e303952-bdd6-487b-be3d-05d3bfac906e")
 			(effects
@@ -7675,7 +7640,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 1.65 0)
+			(at 0.170584 -1.725164 0)
 			(layer "B.SilkS")
 			(uuid "a08eaba1-0f6a-435d-b78d-785dc8e3d11f")
 			(effects
@@ -8719,7 +8684,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 3.59474 0.915857 0)
+			(at 4.442559 0.105205 0)
 			(layer "B.SilkS")
 			(uuid "14069684-a74a-4ae2-8e20-54598425137b")
 			(effects

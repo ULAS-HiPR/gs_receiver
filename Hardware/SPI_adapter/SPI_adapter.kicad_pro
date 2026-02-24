@@ -514,7 +514,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Manufacturing/SPI_adapter/Gerber Output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "SPI_adapter.step",
