@@ -2967,6 +2967,12 @@
 		(uuid "1ce39898-1f48-41ad-9442-91e0f779a61a")
 	)
 	(junction
+		(at 111.76 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20c91c1a-3bee-4da6-8565-7ba33d0b6ebc")
+	)
+	(junction
 		(at 236.22 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3224,6 +3230,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 158.75) (xy 124.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1860d18c-7c3e-4e62-92c8-38cd6984500c")
+	)
+	(wire
+		(pts
 			(xy 43.18 167.64) (xy 43.18 176.53)
 		)
 		(stroke
@@ -3434,6 +3450,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 154.94) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467c9f51-b346-4ddc-9041-f9d1a085ac33")
+	)
+	(wire
+		(pts
 			(xy 119.38 78.74) (xy 132.08 78.74)
 		)
 		(stroke
@@ -3561,6 +3587,16 @@
 			(type default)
 		)
 		(uuid "56031838-1c56-4cc6-afa1-413f588ab6e9")
+	)
+	(wire
+		(pts
+			(xy 104.14 147.32) (xy 109.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5620c279-d80c-49ea-97e4-866a93af0bc2")
 	)
 	(wire
 		(pts
@@ -4114,7 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 158.75) (xy 124.46 158.75)
+			(xy 110.49 158.75) (xy 111.76 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4181,6 +4217,16 @@
 			(type default)
 		)
 		(uuid "c9d99db0-a0e0-46d5-b47e-0a975838667d")
+	)
+	(wire
+		(pts
+			(xy 111.76 154.94) (xy 111.76 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fd2ba4-b716-43ca-b15e-2278abab4f5e")
 	)
 	(wire
 		(pts
@@ -5106,7 +5152,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60Ω"
+		(property "Value" "10K"
 			(at 104.14 176.5299 0)
 			(effects
 				(font
@@ -6460,6 +6506,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 104.14 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "535419a9-6c4c-45ff-b2c5-3f100f25d5da")
+		(property "Reference" "#PWR019"
+			(at 97.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.092 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98108d0e-bf08-4373-be22-8bac5d2cd239")
+		)
+		(instances
+			(project "mobile_receiver"
+				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 203.2 102.87 180)
 		(unit 1)
@@ -6765,6 +6877,76 @@
 			(project "mobile_receiver"
 				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
 					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74952100-7e23-48e0-983d-ea5618b7e3ad")
+		(property "Reference" "C3"
+			(at 113.03 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 113.03 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 110.1852 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9a88269-294b-4171-80dd-6e4334922da7")
+		)
+		(pin "2"
+			(uuid "5456b7cd-1442-496d-9ad5-2436ae9beefb")
+		)
+		(instances
+			(project "mobile_receiver"
+				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7121,7 +7303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60Ω"
+		(property "Value" "10K"
 			(at 95.25 175.2599 0)
 			(effects
 				(font

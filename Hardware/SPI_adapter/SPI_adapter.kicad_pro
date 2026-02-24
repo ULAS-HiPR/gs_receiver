@@ -483,12 +483,12 @@
         "track_width": 0.8
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.2,
         "name": "antenna",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.318,
+        "track_width": 0.19006,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -517,7 +517,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SPI_adapter.step",
       "svg": "",
       "vrml": ""
     },
