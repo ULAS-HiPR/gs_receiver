@@ -483,12 +483,12 @@
         "track_width": 0.8
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.508,
         "name": "antenna",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.19006,
+        "track_width": 0.1565,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }

@@ -275,6 +275,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Analog_Switch:MAX40200AUK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX40200AUK"
+				(at 7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "current switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX40200AUK_1_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Battery_Charging_Module:LiPo_Charging_Module"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1054,156 +1225,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2943,12 +2964,6 @@
 		(uuid "f1cc03cf-d3a4-4208-8686-ad11e4844dae")
 	)
 	(junction
-		(at 78.74 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0be94139-8a73-4349-b932-47d7c5981dd6")
-	)
-	(junction
 		(at 203.2 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2977,6 +2992,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25131a2c-3b24-4ebe-9e8e-a41004ee106c")
+	)
+	(junction
+		(at 78.74 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a932378-c35f-4e93-82f2-d6ddbb28026a")
+	)
+	(junction
+		(at 102.87 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b080848-0666-4915-8291-9b7c28a160a5")
 	)
 	(junction
 		(at 236.22 83.82)
@@ -3025,6 +3052,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "834fe819-282a-4065-9492-404bf669b0b3")
+	)
+	(junction
+		(at 102.87 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9637068a-5cda-454d-924d-1ae21963ec41")
 	)
 	(junction
 		(at 35.56 27.94)
@@ -3147,6 +3180,16 @@
 			(type default)
 		)
 		(uuid "0e5c67e9-ac32-43ac-9a8b-402d842d9246")
+	)
+	(wire
+		(pts
+			(xy 102.87 26.67) (xy 102.87 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eddc98e-3921-4e69-bbed-9d08b370ba4d")
 	)
 	(wire
 		(pts
@@ -3350,6 +3393,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 49.53) (xy 107.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2694d391-7dd1-4087-8e77-cb42681b603d")
+	)
+	(wire
+		(pts
 			(xy 144.78 111.76) (xy 144.78 121.92)
 		)
 		(stroke
@@ -3377,6 +3430,16 @@
 			(type default)
 		)
 		(uuid "2b80f822-82d6-441a-8dc7-397e476b0a9f")
+	)
+	(wire
+		(pts
+			(xy 110.49 38.1) (xy 110.49 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3f6e3f-a26a-465f-ae00-fa493e2fbd46")
 	)
 	(wire
 		(pts
@@ -3470,6 +3533,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 49.53) (xy 82.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f4ab88-6317-4465-aec4-ad1a75386068")
+	)
+	(wire
+		(pts
 			(xy 120.65 121.92) (xy 120.65 123.19)
 		)
 		(stroke
@@ -3517,6 +3590,16 @@
 			(type default)
 		)
 		(uuid "4ef134f3-c409-41f4-be79-5c11a7264de8")
+	)
+	(wire
+		(pts
+			(xy 78.74 26.67) (xy 82.55 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd9c88b-8ebc-4ab8-acb2-a90c53697843")
 	)
 	(wire
 		(pts
@@ -3740,6 +3823,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 26.67) (xy 78.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f111ec-5f52-4621-872a-2daee8fc9fbb")
+	)
+	(wire
+		(pts
 			(xy 203.2 106.68) (xy 203.2 113.03)
 		)
 		(stroke
@@ -3870,16 +3963,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 29.21) (xy 78.74 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85dbedff-a409-4503-a8cd-7f6c3bcca4ab")
-	)
-	(wire
-		(pts
 			(xy 101.6 179.07) (xy 101.6 181.61)
 		)
 		(stroke
@@ -3957,16 +4040,6 @@
 			(type default)
 		)
 		(uuid "91b788b0-12ce-4021-a67c-66dc83e89330")
-	)
-	(wire
-		(pts
-			(xy 78.74 29.21) (xy 80.01 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f44fa5-aab8-434e-93fe-d31094239595")
 	)
 	(wire
 		(pts
@@ -4050,13 +4123,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 80.01 49.53)
+			(xy 102.87 49.53) (xy 102.87 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1642fe7-0e27-4d81-96e5-5c61d543cd67")
+		(uuid "b097614e-0861-42f0-b188-45ee082063aa")
 	)
 	(wire
 		(pts
@@ -4130,16 +4203,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 38.1) (xy 110.49 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd55ab9-e60d-42d9-9b48-8360eaee97a3")
-	)
-	(wire
-		(pts
 			(xy 229.87 55.88) (xy 229.87 74.93)
 		)
 		(stroke
@@ -4210,13 +4273,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 29.21) (xy 93.98 29.21)
+			(xy 102.87 26.67) (xy 107.95 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9d99db0-a0e0-46d5-b47e-0a975838667d")
+		(uuid "c7baec40-cd79-4fd8-b9c4-e75a6bb7bd90")
 	)
 	(wire
 		(pts
@@ -4347,16 +4410,6 @@
 			(type default)
 		)
 		(uuid "dede8388-073b-448c-93b8-c81e40893d8a")
-	)
-	(wire
-		(pts
-			(xy 93.98 49.53) (xy 87.63 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d70a7f-1ab8-4912-a0bf-446c89b940b9")
 	)
 	(wire
 		(pts
@@ -4588,6 +4641,16 @@
 		)
 		(uuid "2f889b90-4a52-4410-9e00-aa9f39e02103")
 	)
+	(label "VBAT"
+		(at 107.95 26.67 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "31d42e94-f9fd-412a-b162-d82c9d62256f")
+	)
 	(label "SYS_VBUS"
 		(at 66.04 91.44 0)
 		(effects
@@ -4728,16 +4791,6 @@
 		)
 		(uuid "898a29dd-6740-4974-ab9f-a6d6cc716fe8")
 	)
-	(label "VBAT"
-		(at 93.98 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89d8510b-437a-498f-9165-87d50fcb4ea8")
-	)
 	(label "GND"
 		(at 124.46 161.29 180)
 		(effects
@@ -4838,16 +4891,6 @@
 		)
 		(uuid "b5956cb4-4fce-468f-8628-bebf712d8700")
 	)
-	(label "USB_5V"
-		(at 93.98 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b646b442-536b-40e6-a2a3-462f9f733194")
-	)
 	(label "RADIO_RST"
 		(at 39.37 101.6 180)
 		(effects
@@ -4938,6 +4981,16 @@
 		)
 		(uuid "e188388d-c150-4f5e-8a8e-ef20d81c8629")
 	)
+	(label "SUMMED_POWER"
+		(at 78.74 39.37 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3963e51-d80e-436d-9527-5d66e89d410c")
+	)
 	(label "GPIO2"
 		(at 138.43 173.99 0)
 		(effects
@@ -4947,6 +5000,16 @@
 			(justify left bottom)
 		)
 		(uuid "e3c335cc-db0b-4a37-ad19-db33fe988878")
+	)
+	(label "USB_5V"
+		(at 107.95 49.53 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e447ce5f-6b0a-475e-a559-4e700bdad12a")
 	)
 	(label "SYS_MOSI"
 		(at 101.6 181.61 270)
@@ -6815,6 +6878,150 @@
 		)
 	)
 	(symbol
+		(lib_id "Analog_Switch:MAX40200AUK")
+		(at 92.71 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "610b9547-5f4c-4805-b23f-8d97640753fb")
+		(property "Reference" "U6"
+			(at 101.092 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX40200AUK"
+			(at 92.71 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 92.71 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf"
+			(at 92.71 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, SOT-23-5"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14dd839-4d73-462c-ab56-d464daae974c")
+		)
+		(pin "4"
+			(uuid "cafe79ec-5235-479f-845b-a1c40fc77015")
+		)
+		(pin "3"
+			(uuid "4d6262ff-c5bf-48f6-bf1c-99f905fc7c15")
+		)
+		(pin "5"
+			(uuid "5ac6c66a-57a1-4a3f-812b-1939f3e7aca6")
+		)
+		(pin "2"
+			(uuid "882d546d-222d-4c85-aa6e-556c984084bb")
+		)
+		(instances
+			(project ""
+				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63529fb4-fcd4-42f8-9593-32b83ea673ea")
+		(property "Reference" "#PWR021"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25512c4d-db98-4f97-a925-677407c05937")
+		)
+		(instances
+			(project "mobile_receiver"
+				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 257.81 138.43 0)
 		(unit 1)
@@ -7013,74 +7220,6 @@
 			(project ""
 				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 83.82 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f7c2c1c-3d1c-4993-9158-d6fc4cc5c443")
-		(property "Reference" "D1"
-			(at 83.5025 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS"
-			(at 83.5025 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 83.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 83.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06541d9a-9a75-4bc0-8232-501ba1bb02cd")
-		)
-		(pin "2"
-			(uuid "fa7b1e20-4e46-48eb-8c4e-3e3049435fb9")
-		)
-		(instances
-			(project ""
-				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7827,74 +7966,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 83.82 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4860114-b64c-4859-86b4-a4f21fb459a1")
-		(property "Reference" "D2"
-			(at 83.5025 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS"
-			(at 83.5025 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 83.82 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 83.82 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b72ec95-0f84-4cb3-8e43-e87c36ffa96b")
-		)
-		(pin "2"
-			(uuid "9a761907-30f5-4669-aba1-72a9ad5a6962")
-		)
-		(instances
-			(project "mobile_receiver"
-				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 242.57 132.08 180)
 		(unit 1)
@@ -8607,6 +8678,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 92.71 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5af7653-3b27-40f1-9c62-483d669e8b53")
+		(property "Reference" "#PWR020"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2824adc6-94f3-420d-8ceb-d159e0e0a3b3")
+		)
+		(instances
+			(project "mobile_receiver"
+				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 110.49 158.75 90)
 		(unit 1)
@@ -8668,6 +8806,83 @@
 			(project "mobile_receiver"
 				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:MAX40200AUK")
+		(at 92.71 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa7ef43e-f14f-4bd4-bdc0-6e15782a005a")
+		(property "Reference" "U4"
+			(at 100.838 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX40200AUK"
+			(at 92.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, SOT-23-5"
+			(at 92.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19ec3883-2db0-43ab-8c35-e1479ba65953")
+		)
+		(pin "4"
+			(uuid "27419d6b-c734-4ebd-841c-c332e7c64d85")
+		)
+		(pin "3"
+			(uuid "f504652a-f3bd-4ab6-ba73-934160ff7c33")
+		)
+		(pin "5"
+			(uuid "89a99b10-7f11-4385-9935-4782bb21fb86")
+		)
+		(pin "2"
+			(uuid "10d4b545-bafb-4a32-9430-d35956afaefc")
+		)
+		(instances
+			(project "mobile_receiver"
+				(path "/027e157c-a777-4d43-93ce-409e4d09b50d"
+					(reference "U4")
 					(unit 1)
 				)
 			)
