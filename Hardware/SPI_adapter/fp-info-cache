@@ -1,4 +1,4 @@
-27231412559787985
+27234957449260781
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71813,6 +71813,13 @@ Yellow 5381 Series LED
 2
 2
 MHF4_antenna
+HiPR
+
+
+0
+0
+0
+MHF4_antenna
 TE_CONMHF4-SMD-G-T
 
 
@@ -74682,6 +74689,13 @@ threaded screw
 0
 4
 1
+My footprints
+HiPR
+
+
+0
+0
+0
 My footprints
 TE_CONMHF4-SMD-G-T
 
