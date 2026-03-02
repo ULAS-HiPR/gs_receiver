@@ -1009,12 +1009,16 @@
 		(uuid "2eda1b70-c248-4f94-bf34-15399829a260")
 	)
 	(no_connect
-		(at 132.08 95.25)
-		(uuid "7c0f61c7-b7c4-4adf-867c-48d43cd95646")
+		(at 160.02 106.68)
+		(uuid "44d9eecd-3fc3-4dd2-afc9-e08c9b3cee1d")
 	)
 	(no_connect
-		(at 160.02 92.71)
-		(uuid "8fe69659-c544-4332-89aa-9dff8afec6ba")
+		(at 160.02 101.6)
+		(uuid "6dca443f-e776-46e5-a55f-6ad9d448d174")
+	)
+	(no_connect
+		(at 132.08 95.25)
+		(uuid "7c0f61c7-b7c4-4adf-867c-48d43cd95646")
 	)
 	(no_connect
 		(at 132.08 87.63)
@@ -1031,10 +1035,6 @@
 	(no_connect
 		(at 132.08 101.6)
 		(uuid "bc6f2d9d-deb0-4856-abac-fba1a6429e97")
-	)
-	(no_connect
-		(at 160.02 87.63)
-		(uuid "c0a518c7-31c0-45cc-9c3b-a91bdd47d06e")
 	)
 	(wire
 		(pts
@@ -1138,26 +1138,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 101.6) (xy 163.83 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da319793-cf4e-4ef0-9127-5e4571b5c2d6")
-	)
-	(wire
-		(pts
-			(xy 160.02 106.68) (xy 160.02 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2476814-9a5b-4bc9-bb49-8eddff46929c")
-	)
-	(wire
-		(pts
 			(xy 165.1 92.71) (xy 165.1 90.17)
 		)
 		(stroke
@@ -1185,16 +1165,6 @@
 			(justify left bottom)
 		)
 		(uuid "08edee11-0c8b-4517-8fcc-b3d3cbdc1b04")
-	)
-	(label "RADIO_RX"
-		(at 163.83 101.6 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f0cb551-da61-4996-ae04-2019b280c716")
 	)
 	(label "SPI_CS"
 		(at 101.6 93.98 0)
@@ -1235,6 +1205,16 @@
 			(justify right bottom)
 		)
 		(uuid "8eedfed6-660d-4422-9e40-2447596e7079")
+	)
+	(label "RADIO_RX"
+		(at 160.02 87.63 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b77d7c55-0168-4b34-b197-4a4c45d30f98")
 	)
 	(label "SPI_MISO"
 		(at 101.6 96.52 0)
@@ -1278,7 +1258,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 160.02 111.76 180)
+		(at 160.02 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1287,7 +1267,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e92abda-a106-436c-97e6-c5e16c8c75d9")
 		(property "Reference" "#PWR07"
-			(at 160.02 107.95 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +1276,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 160.02 116.84 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 111.76 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 111.76 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 160.02 111.76 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
