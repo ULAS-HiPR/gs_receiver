@@ -1,4 +1,4 @@
-27288093807095932
+27274856750555179
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,13 +13,6 @@ audio belton reverb
 0
 7
 7
-Battery
-4410_Micro_LiPo_USBC
-
-
-0
-0
-0
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -71812,13 +71805,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Micro_LiPo_USBC_Charger
-Micro_Lipo_Charger_Module
-
-
-0
-0
-0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -74668,132 +74654,6 @@ threaded screw
 0
 4
 1
-My footprints
-4410_Micro_LiPo_USBC
-
-
-0
-5
-5
-My footprints
-Adafruit_280X240_Display
-
-
-0
-15
-12
-My footprints
-IC_QFN24_SIL
-
-CP2102C-A01-GQFN24R 
-0
-25
-25
-My footprints
-IC_QFN24_SIL-L
-
-CP2102C-A01-GQFN24R 
-0
-25
-25
-My footprints
-IC_QFN24_SIL-M
-
-CP2102C-A01-GQFN24R 
-0
-25
-25
-My footprints
-MODULE_102010428
-
-
-0
-14
-14
-My footprints
-OS102011MA1QN1_CNK
-
-OS102011MA1QN1 
-0
-5
-5
-My footprints
-cat1
-
-
-0
-0
-0
-My footprints
-cat2
-
-
-0
-0
-0
-My footprints
-graph
-
-
-0
-0
-0
-My footprints
-kb2040
-
-
-0
-26
-26
-My footprints
-laughing
-
-
-0
-0
-0
-My footprints
-letmedoitforyou
-
-
-0
-0
-0
-My footprints
-onepiece
-
-
-0
-0
-0
-My footprints
-shocked
-
-
-0
-0
-0
-My footprints
-shouting
-
-
-0
-0
-0
-My footprints
-spidermans
-
-
-0
-0
-0
-My footprints
-spooderman
-
-
-0
-0
-0
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -96473,13 +96333,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-RP2040
-XIAO-RP2040-DIP
-
-
-0
-28
-14
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
