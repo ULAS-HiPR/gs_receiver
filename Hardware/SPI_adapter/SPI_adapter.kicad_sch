@@ -1453,12 +1453,6 @@
 		(color 0 0 0 0)
 		(uuid "32581372-aa22-44a8-b941-38cc7233290c")
 	)
-	(junction
-		(at 116.84 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5ec5870-3085-4491-824f-dfd1ea67cd42")
-	)
 	(no_connect
 		(at 172.72 105.41)
 		(uuid "0749d30d-b938-495a-afea-34ca7e77bd95")
@@ -1466,10 +1460,6 @@
 	(no_connect
 		(at 172.72 107.95)
 		(uuid "2668079b-28f6-49a3-bf91-26503ec8a343")
-	)
-	(no_connect
-		(at 95.25 90.17)
-		(uuid "8156b9ea-3d12-40a0-b384-de2afef96db7")
 	)
 	(no_connect
 		(at 172.72 110.49)
@@ -1480,22 +1470,8 @@
 		(uuid "a191b53f-9401-45e2-a684-567928b0e3e3")
 	)
 	(no_connect
-		(at 95.25 92.71)
-		(uuid "d90efdeb-1fc6-41d1-a6b1-fdce2ca41d8d")
-	)
-	(no_connect
 		(at 137.16 110.49)
 		(uuid "f43b712c-405c-4015-a9bc-fc6268a9cc9e")
-	)
-	(wire
-		(pts
-			(xy 116.84 90.17) (xy 116.84 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03cdc0c0-a0d2-49f9-a44a-3b85ec9e4815")
 	)
 	(wire
 		(pts
@@ -1619,6 +1595,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 92.71) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ceaa618-26ee-400e-8a54-089d160d8d19")
+	)
+	(wire
+		(pts
 			(xy 134.62 82.55) (xy 137.16 82.55)
 		)
 		(stroke
@@ -1639,16 +1625,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 90.17) (xy 116.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c5595ad-c6c2-42b6-94c2-c4fd7baa05d3")
-	)
-	(wire
-		(pts
 			(xy 187.96 74.93) (xy 194.31 74.93)
 		)
 		(stroke
@@ -1656,6 +1632,16 @@
 			(type default)
 		)
 		(uuid "a2a1f095-bc2d-4b50-9c80-868ab96e6c65")
+	)
+	(wire
+		(pts
+			(xy 92.71 90.17) (xy 95.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbaeb6e9-c709-4c50-ac3b-558d69f7892a")
 	)
 	(wire
 		(pts
@@ -1797,6 +1783,16 @@
 		)
 		(uuid "1acf00ea-2caa-42dd-b3f2-88fe32900b5a")
 	)
+	(label "RX_SWITCH"
+		(at 132.08 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "245a5f62-9d46-474c-ae96-53c170acc667")
+	)
 	(label "SPI_MOSI"
 		(at 132.08 97.79 180)
 		(effects
@@ -1846,6 +1842,26 @@
 			(justify right bottom)
 		)
 		(uuid "6ce79006-e225-4341-a4c2-38f5fe98adb3")
+	)
+	(label "RX_SWITCH"
+		(at 92.71 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77c73480-f23b-445f-80a3-dd97aba86e59")
+	)
+	(label "TX_SWITCH"
+		(at 92.71 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85d07dae-ce27-482a-9712-773757238f3a")
 	)
 	(label "RADIO_DIO1"
 		(at 95.25 100.33 180)
@@ -1936,6 +1952,16 @@
 			(justify left bottom)
 		)
 		(uuid "fede13e8-70a6-4d36-813c-da7dcd3ef365")
+	)
+	(label "TX_SWITCH"
+		(at 137.16 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff219233-dce0-4f81-b652-c3a4d71d18aa")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2782,73 +2808,6 @@
 			(project ""
 				(path "/dd2a81cc-f429-440b-88d8-e89075ace122"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 132.08 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d40274c0-6169-4926-9f7d-a458f46d9fbd")
-		(property "Reference" "#PWR08"
-			(at 135.89 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 128.27 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "511df81a-b214-47e4-be54-e6ae1e3a5aff")
-		)
-		(instances
-			(project "SPI_adapter"
-				(path "/dd2a81cc-f429-440b-88d8-e89075ace122"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
