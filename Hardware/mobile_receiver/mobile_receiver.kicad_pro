@@ -529,7 +529,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Manufacturing/mobile_receiver/Gerber Output/",
+      "plot": "../Manufacturing/mobile_receiver/fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../Manufacturing/mobile_receiver/mobile_receiver.step",

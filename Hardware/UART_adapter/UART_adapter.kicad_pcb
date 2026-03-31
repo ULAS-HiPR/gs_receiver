@@ -113,7 +113,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../Manufacturing/UART_adapter/Gerber Output/")
+			(outputdirectory "../Manufacturing/UART_adapter/fabrication/")
 		)
 	)
 	(net 0 "")
@@ -2236,7 +2236,7 @@
 	(zone
 		(net 6)
 		(net_name "GND")
-		(layer "F.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "b382aaac-4fce-49c8-8924-34f158f8a3bb")
 		(hatch edge 0.5)
 		(priority 1)
@@ -2742,27 +2742,6 @@
 				(xy 93.4878 84.6403) (xy 93.507485 84.573261) (xy 93.560289 84.527506) (xy 93.6118 84.5163) (xy 191.8628 84.5163)
 			)
 		)
-	)
-	(zone
-		(net 6)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "fb62438f-019f-4a02-8197-aa0a6ca4d51e")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0.5)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 92.96736 84) (xy 192.46736 84) (xy 192.46736 118.5) (xy 92.96736 118.5)
-			)
-		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
@@ -3245,6 +3224,27 @@
 				(xy 185.9362 87.291588) (xy 185.843443 87.55667) (xy 185.843439 87.556682) (xy 185.780945 87.830487)
 				(xy 185.780942 87.830505) (xy 185.7495 88.109568) (xy 93.4878 88.109568) (xy 93.4878 84.6403) (xy 93.507485 84.573261)
 				(xy 93.560289 84.527506) (xy 93.6118 84.5163) (xy 191.8628 84.5163)
+			)
+		)
+	)
+	(zone
+		(net 6)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "fb62438f-019f-4a02-8197-aa0a6ca4d51e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 92.96736 84) (xy 192.46736 84) (xy 192.46736 118.5) (xy 92.96736 118.5)
 			)
 		)
 	)

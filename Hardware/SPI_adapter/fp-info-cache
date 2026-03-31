@@ -1,4 +1,4 @@
-27234957449260781
+27291638696483708
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71812,27 +71812,6 @@ Yellow 5381 Series LED
 0
 2
 2
-MHF4_antenna
-HiPR
-
-
-0
-0
-0
-MHF4_antenna
-TE_CONMHF4-SMD-G-T
-
-
-0
-4
-4
-MHF4_antenna
-XCVR_RF-LORA-868-SO
-
-
-0
-16
-16
 Micro_LiPo_USBC_Charger
 Micro_Lipo_Charger_Module
 
@@ -74690,6 +74669,20 @@ threaded screw
 4
 1
 My footprints
+4410_Micro_LiPo_USBC
+
+
+0
+5
+5
+My footprints
+Adafruit_280X240_Display
+
+
+0
+15
+12
+My footprints
 HiPR
 
 
@@ -74697,19 +74690,117 @@ HiPR
 0
 0
 My footprints
-TE_CONMHF4-SMD-G-T
+IC_QFN24_SIL
 
-
+CP2102C-A01-GQFN24R 
 0
-4
-4
+25
+25
 My footprints
-XCVR_RF-LORA-868-SO
+IC_QFN24_SIL-L
+
+CP2102C-A01-GQFN24R 
+0
+25
+25
+My footprints
+IC_QFN24_SIL-M
+
+CP2102C-A01-GQFN24R 
+0
+25
+25
+My footprints
+MODULE_102010428
 
 
 0
-16
-16
+14
+14
+My footprints
+OS102011MA1QN1_CNK
+
+OS102011MA1QN1 
+0
+5
+5
+My footprints
+cat1
+
+
+0
+0
+0
+My footprints
+cat2
+
+
+0
+0
+0
+My footprints
+graph
+
+
+0
+0
+0
+My footprints
+kb2040
+
+
+0
+26
+26
+My footprints
+laughing
+
+
+0
+0
+0
+My footprints
+letmedoitforyou
+
+
+0
+0
+0
+My footprints
+onepiece
+
+
+0
+0
+0
+My footprints
+shocked
+
+
+0
+0
+0
+My footprints
+shouting
+
+
+0
+0
+0
+My footprints
+spidermans
+
+
+0
+0
+0
+My footprints
+spooderman
+
+
+0
+0
+0
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -107967,3 +108058,136 @@ Varistor VF
 0
 2
 2
+footprints
+4410_Micro_LiPo_USBC
+
+
+0
+5
+5
+footprints
+Adafruit_280X240_Display
+
+
+0
+15
+12
+footprints
+HiPR
+
+
+0
+0
+0
+footprints
+IC_QFN24_SIL
+
+CP2102C-A01-GQFN24R 
+0
+25
+25
+footprints
+IC_QFN24_SIL-L
+
+CP2102C-A01-GQFN24R 
+0
+25
+25
+footprints
+IC_QFN24_SIL-M
+
+CP2102C-A01-GQFN24R 
+0
+25
+25
+footprints
+MODULE_102010428
+
+
+0
+14
+14
+footprints
+OS102011MA1QN1_CNK
+
+OS102011MA1QN1 
+0
+5
+5
+footprints
+cat1
+
+
+0
+0
+0
+footprints
+cat2
+
+
+0
+0
+0
+footprints
+graph
+
+
+0
+0
+0
+footprints
+kb2040
+
+
+0
+26
+26
+footprints
+laughing
+
+
+0
+0
+0
+footprints
+letmedoitforyou
+
+
+0
+0
+0
+footprints
+onepiece
+
+
+0
+0
+0
+footprints
+shocked
+
+
+0
+0
+0
+footprints
+shouting
+
+
+0
+0
+0
+footprints
+spidermans
+
+
+0
+0
+0
+footprints
+spooderman
+
+
+0
+0
+0
