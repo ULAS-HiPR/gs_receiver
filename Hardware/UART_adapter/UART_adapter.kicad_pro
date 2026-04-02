@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Manufacturing/UART_adapter/Gerber Output/",
+      "plot": "../Manufacturing/UART_adapter/fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "UART_adapter.step",
