@@ -1,6 +1,7 @@
 class GPS_Data:
-    def __init__(self, data=[0,0,0,0,0]):
-        print(data)
+    def __init__(self, data=None):
+        if data is None:
+            data = (0, 0, 0, 0, 0)
         try:
             self.fix_time = int(data[4])
             self.lat = float(data[0])
@@ -12,7 +13,7 @@ class GPS_Data:
                 self.fix = True
             else:
                 self.fix = False
-        except:
+        except (IndexError, TypeError, ValueError):
             self.fix_time = 0
             self.lat = 0
             self.lon = 0
