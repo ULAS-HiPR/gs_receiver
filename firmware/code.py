@@ -30,6 +30,9 @@ radio = SX1272(
 radio_ready = radio.init()
 last_init_attempt = time.monotonic()
 bad_packet_count = 0
+packet_count = 0
+last_packet_time = None
+last_display_update = 0.0
 
 print("#OGMA groundstation protocol=1 radio={}".format("ready" if radio_ready else "retrying"))
 
@@ -80,10 +83,25 @@ while True:
         try:
             packet = radio.receive()
             if packet is not None:
-                emit_packet(decode_packet(packet))
+                decoded = decode_packet(packet)
+                emit_packet(decoded)
+                packet_count += 1
+                last_packet_time = now
         except Exception as exc:
             bad_packet_count += 1
             radio_ready = False
             print("#OGMA bad_packet={} error={}".format(bad_packet_count, exc))
+
+    if now - last_display_update >= 0.5:
+        last_display_update = now
+        packet_age = None if last_packet_time is None else now - last_packet_time
+        gps_screen.update_link(
+            radio_ready,
+            packet_count,
+            bad_packet_count,
+            radio.last_rssi_dbm,
+            radio.last_snr_db,
+            packet_age,
+        )
 
     time.sleep(0.01)

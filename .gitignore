@@ -3,3 +3,5 @@
 _autosave-*
 __pycache__/
 *.pyc
+fp-info-cache
+*-backups/
