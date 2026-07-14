@@ -1,0 +1,25 @@
+name: Firmware CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, ogma/flight-hardening]
+    paths:
+      - "firmware/**"
+      - ".github/workflows/**"
+  pull_request:
+    branches: [main]
+    paths:
+      - "firmware/**"
+      - ".github/workflows/**"
+
+jobs:
+  syntax:
+    name: Compile CircuitPython sources
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m compileall -q firmware
