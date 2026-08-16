@@ -805,7 +805,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KiCad:Conn_01x04"
+		(symbol "KiCad:Conn_01x05"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -816,7 +816,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -825,7 +825,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
+			(property "Value" "Conn_01x05"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -857,7 +857,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -890,9 +890,9 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 6.35)
 					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
@@ -900,6 +900,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -947,7 +958,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -965,7 +976,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -983,7 +994,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1001,7 +1012,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1011,6 +1022,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3327,6 +3356,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 82.55) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e52536-839d-4a7e-a1f9-fc7c6926c248")
+	)
+	(wire
+		(pts
 			(xy 107.95 58.42) (xy 113.03 58.42)
 		)
 		(stroke
@@ -3597,6 +3636,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 76.2) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1e0e82-50c6-45a5-8f5f-179b6c664e27")
+	)
+	(wire
+		(pts
 			(xy 129.54 58.42) (xy 129.54 67.31)
 		)
 		(stroke
@@ -3647,13 +3696,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 165.1 82.55)
+			(xy 138.43 80.01) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86464f77-6e76-45b0-8d0a-5bfad1f71dfc")
+		(uuid "8ac9d2d7-e6f4-4a91-ae91-5203a35e6ea9")
 	)
 	(wire
 		(pts
@@ -3704,16 +3753,6 @@
 			(type default)
 		)
 		(uuid "9bd2d549-8389-42e5-9870-f5f3002a06e5")
-	)
-	(wire
-		(pts
-			(xy 138.43 81.28) (xy 165.1 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ccdf5ea-4428-4d40-b07a-3975afe0e75a")
 	)
 	(wire
 		(pts
@@ -3804,6 +3843,16 @@
 			(type default)
 		)
 		(uuid "c15a8cb1-059a-4cbd-9c0c-ce259284b10f")
+	)
+	(wire
+		(pts
+			(xy 138.43 81.28) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc760437-49b3-402c-a9f6-f79abd9ad6e3")
 	)
 	(wire
 		(pts
@@ -4734,94 +4783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad:Conn_01x04")
-		(at 170.18 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ae1c408-dd0a-4a3a-89fb-ea13e83684c7")
-		(property "Reference" "J1"
-			(at 172.72 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 172.72 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 170.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "2409039e-8937-4e04-abb4-f1d0ff67f1fc")
-		)
-		(pin "1"
-			(uuid "99220060-bd08-4fbd-9059-c5e57d702a6a")
-		)
-		(pin "2"
-			(uuid "e678afa0-4984-40cf-af3a-923b72f72bdc")
-		)
-		(pin "4"
-			(uuid "960a693e-96aa-4012-9ac0-6762faf5f6c4")
-		)
-		(instances
-			(project "CATS_adapter"
-				(path "/4985fd1e-fa04-47e9-b22a-97ab5736d1c9"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KiCad:GND")
 		(at 203.2 54.61 0)
 		(unit 1)
@@ -5210,6 +5171,84 @@
 			(project "CATS_adapter"
 				(path "/4985fd1e-fa04-47e9-b22a-97ab5736d1c9"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:+3.3V")
+		(at 158.75 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "877c30f6-67d6-4763-9188-d0eb373bd348")
+		(property "Reference" "#PWR014"
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 158.75 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "935772a2-7bd6-463d-8c43-0fb6ee09e9bb")
+		)
+		(instances
+			(project "CATS_adapter"
+				(path "/4985fd1e-fa04-47e9-b22a-97ab5736d1c9"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5878,7 +5917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Feetpics:LQFP-48-L"
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 			(at 30.48 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -6226,6 +6265,97 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad:Conn_01x05")
+		(at 170.18 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da23a290-350a-491e-9e70-b02c7f2b5eb1")
+		(property "Reference" "J1"
+			(at 172.72 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 172.72 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 170.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 170.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "3c735541-23a2-42ab-b764-25dff2c5fc2d")
+		)
+		(pin "2"
+			(uuid "708bc70c-e797-40c5-9160-b9590a2ec0d9")
+		)
+		(pin "3"
+			(uuid "35ebc1ff-3e24-4202-ab9e-85599036b90b")
+		)
+		(pin "1"
+			(uuid "ae0fd91a-8896-49b8-9cc6-2a8b735b4a4f")
+		)
+		(pin "5"
+			(uuid "2521efca-36d9-4330-9486-eb0c2a47b241")
+		)
+		(instances
+			(project "CATS_adapter"
+				(path "/4985fd1e-fa04-47e9-b22a-97ab5736d1c9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCad:C")
 		(at 113.03 62.23 0)
 		(unit 1)
@@ -6416,7 +6546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Feetpics:LQFP-48-L"
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 			(at 144.78 35.56 0)
 			(hide yes)
 			(show_name no)
