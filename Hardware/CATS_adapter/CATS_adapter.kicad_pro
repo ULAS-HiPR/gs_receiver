@@ -523,7 +523,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab/Gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
